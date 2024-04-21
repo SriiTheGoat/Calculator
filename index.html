@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="calculator-container">
+        <div class="calculator-header content">
+            <h1 class="calculator-title">Calculator</h1>
+        </div>
+        <div class="calculator-input content">
+            <input id="inputField" class="input-field" type="text" placeholder="0">
+        </div>
+        <div class="calculator-buttons content">
+            <div class="row">
+                <button id="btn0" class="number-btn">0</button>
+                <button id="btn1" class="number-btn">1</button>
+                <button id="btn2" class="number-btn">2</button>
+                <button id="btn3" class="number-btn">3</button>
+                <button id="btn4" class="number-btn">4</button>
+            </div>
+            <div class="row">
+                <button id="btn5" class="number-btn">5</button>
+                <button id="btn6" class="number-btn">6</button>
+                <button id="btn7" class="number-btn">7</button>
+                <button id="btn8" class="number-btn">8</button>
+                <button id="btn9" class="number-btn">9</button>
+            </div>
+            <div class="row">
+                <button id="btnPlus" class="operator-btn">+</button>
+                <button id="btnMinus" class="operator-btn">-</button>
+                <button id="btnMultiply" class="operator-btn">x</button>
+                <button id="btnModulus" class="operator-btn">%</button>
+                <button id="btnDivide" class="operator-btn">/</button>
+            </div>
+        </div>
+
+        <div class="calculator-actions content">
+            <button id="calculateBtn" class="calculate-btn">Calculate</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

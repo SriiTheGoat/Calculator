@@ -1,0 +1,70 @@
+*{
+    margin:  0;
+    padding:  0;
+}
+body{
+
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+
+    display: flex;
+    justify-content: center;
+}
+.calculator-container{
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    margin: 30px;
+    border-radius: 20px;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+}
+.content{
+    padding: 30px;
+}
+.calculator-title{
+    font-size: 50px;
+}
+#inputField{
+    border-radius: 20px ;
+    border-color: white;
+    height: 40px;
+    width: 320px;
+    background-color: wheat;
+    font-weight: 900;
+    font-size: 20px;
+}
+.calculator-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.number-btn{
+    height: 40px;
+    width: 40px;
+    background-color: wheat;
+    border-radius: 5px;
+    border-color: white;
+}
+.operator-btn{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    background-color: wheat;
+    border-color: white;
+}
+row, button{
+    margin: 5px;
+}
+#calculateBtn{
+    border-radius: 20px;
+    border-color: white;
+    height: 40px;
+    width: 100px;
+    background-color: wheat;
+}
+button:hover {
+    background-color: white;
+}
